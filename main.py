@@ -19,20 +19,6 @@ def CreateMatchList():
             match_list.append((team1, team2, stadium))
     return match_list
 
-"""def CreateMatchList():
-    match_list = []
-    teams = list(teams_dict.keys())
-    stadiums = list(stadiums_dict.keys())
-    random.shuffle(teams)
-    random.shuffle(stadiums)
-    for _ in range(4):
-        team1, team2 = random.sample(teams, 2)
-        stadium = random.choice(stadiums)
-        match_list.append((team1, team2, stadium))
-    return match_list"""
-
-
-
 population_match = [CreateMatchList() for _ in range(population_size)]
 
 def Fitness(population):
