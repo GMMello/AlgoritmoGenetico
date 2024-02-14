@@ -1,4 +1,4 @@
-teams_dict = {
+teamsDict = {
     "Fluminense": {"City": "Rio de Janeiro", "Stadium": "Maracanã"},
     "Flamengo": {"City": "Rio de Janeiro", "Stadium": "Maracanã"},
     "Vasco": {"City": "Rio de Janeiro", "Stadium": "São Januário"},
@@ -8,7 +8,7 @@ teams_dict = {
     "Santos": {"City": "São Paulo", "Stadium": "Vila Belmiro"},
     "Palmeiras": {"City": "São Paulo", "Stadium": "Allianz Parque"}
 }
-stadiums_dict = {
+stadiumsDict = {
     "Maracanã": {"Stadium City": "Rio de Janeiro"},
     "São Januário": {"Stadium City": "Rio de Janeiro"},
     "Nilton Santos": {"Stadium City": "Rio de Janeiro"},
